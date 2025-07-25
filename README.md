@@ -10,6 +10,15 @@ mount -o remount,rw /mnt/boot
 # when done, scp back and boil rice on the compute module
 ```
 
+# running
+```bash
+gcc patch_start_elf.c -o patch_start_elf
+./patch_start_elf 
+# Successfully patched at offset 0x1b357c: 26 b2 55 00 -> 26 b2 64 00
+# Successfully patched at offset 0x1b3560: 26 b2 5a 00 -> 26 b2 69 00
+# Patched 2 out of 2 locations
+```
+
 # summary
 
 used ghidra to find the max temp setting in the firmware, increase it with the c program
