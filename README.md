@@ -28,4 +28,4 @@ the `Ghidra/` folder must be merged into a fresh ghidra from-source-build. https
 Took the patch in `Ghidra/` from here: https://github.com/jobermayr/ghidra-staging and fixed it
 
 
-<img width="1488" height="905" alt="image" src="https://github.com/user-attachments/assets/6f0eafe3-a6dc-4be2-8ed6-446b570a8fc2" />
+<img width="1488" height="905" alt="image" src="https://github.com/user-attachments/assets/b959fc46-a4e7-46cd-b921-a6ae711e031a" />
